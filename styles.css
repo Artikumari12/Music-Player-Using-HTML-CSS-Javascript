@@ -1,0 +1,53 @@
+body {
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  margin: 50px;
+}
+
+#musicPlayer {
+  text-align: center;
+  color: #e736a2;
+  margin-left: 30px;
+}
+
+#playlist {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px;
+  cursor: pointer;
+  color: white;
+  text-decoration: underline;
+}
+li:hover {
+  color: black;
+  font-size: 16px;
+}
+
+#pic {
+  border-radius: 10px;
+}
+
+li:hover {
+  text-decoration: underline;
+}
